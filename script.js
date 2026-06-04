@@ -125,7 +125,7 @@ const QUESTIONS = [
         id: 18,
         ref: "WhatsApp Image 2026-06-04 at 23.51.53.jpeg",
         question: "Sosyal araştırmalarda nirengi (triangulation) ne anlama gelir? Nirenginin araştırmaya sağladığı temel faydayı belirterek, nirenginin dört ana türünü yazınız.",
-        answer: "Nirengi; herhangi bir sosyal konuya, kurama veya ölçüm meselesine birden fazla bakış açısıyla bakmaktır. Temel Faydası: Tek bir yöntemin, veri kaynağının veya gözlemcinin getireceği öznelliği ve sınırlılıkları azaltarak, araştırmanın güvenilirliğini ve geçerliliğini en üst düzeye çıkarmaktır. Dört ana türü: Ölçüm/Veri Nirengisi, Gözlemci Nirengisi, Kuram Nirengisi ve Yöntem Nirengisi'dir.",
+        answer: "Nirengi; herhangi bir sosyal konuya, kurama veya ölçüm meselesine birden fazla bakış açısıyla bakmaktır. Temel Faydası: Tek bir yöntemin, veri kaynağının veya gözlemcinin getireceği öznelliği ve sınırlılıkları azaltarak, araştırmanın güvenilirliğini ve geçerliliğini en üst duyeye çıkarmaktır. Dört ana türü: Ölçüm/Veri Nirengisi, Gözlemci Nirengisi, Kuram Nirengisi ve Yöntem Nirengisi'dir.",
         noteRef: "WhatsApp_Image_2026-06-04_at_23.51.53.md"
     },
     {
@@ -144,7 +144,8 @@ const QUESTIONS = [
     }
 ];
 const RAW_NOTES = {
-    "WhatsApp_Image_2026-06-04_at_23.51.52_(3).md": \\n# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (3).jpeg
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(3).md": `
+# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (3).jpeg
 
 ## Background Fragments (Partially Visible Papers at the Top)
 
@@ -176,8 +177,9 @@ Kitaba göre; Çalışanların iş tatminini, etkili bir örgütsel iletişim et
 Açık ve güvenilir iletişim, çalışanların işlerine yönelik belirsizlikleri azaltır.
 
 Düzenli geri bildirim, çalışanların kendilerini değerli hissetmelerini sağlar.
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.52_(4).md": \\n# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (4).jpeg
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(4).md": `
+# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (4).jpeg
 
 ## Background Fragments (Partially Visible Papers at the Top)
 
@@ -209,8 +211,9 @@ Kitaba göre; Çalışanların iş tatminini, etkili bir örgütsel iletişim et
 Açık ve güvenilir iletişim, çalışanların işlerine yönelik belirsizlikleri azaltır.
 
 Düzenli geri bildirim, çalışanların kendilerini değerli hissetmelerini sağlar.
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.52_(5).md": \\n# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (5).jpeg
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(5).md": `
+# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (5).jpeg
 
 ## Background Fragments (Partially Visible Papers at the Top)
 
@@ -260,10 +263,11 @@ Kitabın hipotezi; iletişim doyumu ile iş doyumu arasında pozitif ilişki ön
 ---
 
 ## Footer
-* \$\\\\boldsymbol{\\\\mathcal{\\\\sigma}}\$ 332.606 05 62 | \$\\\\triangle\$ selcuksem@selcuk.edu.tr
-* \$\\\\boxed{\\\\text{F}}\$ 332.606 05 62 | \$\\\\mathcal{W}\$ https://selcuksem.selcuk.edu.tr
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.52.md": \\n# Transcription of WhatsApp Image 2026-06-04 at 23.51.52.jpeg
+* $\\boldsymbol{\\mathcal{\\sigma}}$ 332.606 05 62 | $\\triangle$ selcuksem@selcuk.edu.tr
+* $\\boxed{\\text{F}}$ 332.606 05 62 | $\\mathcal{W}$ https://selcuksem.selcuk.edu.tr
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.52.md": `
+# Transcription of WhatsApp Image 2026-06-04 at 23.51.52.jpeg
 
 ## Top Left
 * \`[Liberaller]\`
@@ -303,11 +307,11 @@ Yöntembilim üstün yanlarını sınırlılıklarını başarıları için ara 
 
 * **[Enclosed in a bracket pointing from "Pozitif bilimden"]**
   Pozitif bilimden
-  \$\\\\rightarrow\$ üstün yanları sınırlılıkları inceleyen başarılar ve başarısızlıklar için yapısal nedenler öne sürerler.
+  $\\rightarrow$ üstün yanları sınırlılıkları inceleyen başarılar ve başarısızlıklar için yapısal nedenler öne sürerler.
 
 > **[Side note on the right]**
 > Field Ressearch
-> \$\\\\rightarrow\$ Alan Araştırması
+> $\\rightarrow$ Alan Araştırması
 
 Bilimsel Süreçler hakkında genellemeler yapan
 
@@ -321,8 +325,9 @@ Bilimsel Süreçler hakkında genellemeler yapan
 | İstatistik Final | | |
 
 *(Note: Brand name "Keskin Color" printed at the bottom-left).*
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.52_(1).md": \\n# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (1).jpeg
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(1).md": `
+# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (1).jpeg
 
 ## Left Page
 
@@ -344,14 +349,14 @@ Bilimsel Süreçler hakkında genellemeler yapan
 
 * Kuramsal bir temele bağlı olmalıdır.
 * Ara değişken varsa net görünmelidir.
-  \$\\\\rightarrow\$ yani tüm değişkenler görülmeli.
+  $\\rightarrow$ yani tüm değişkenler görülmeli.
 
 * [İyice - *crossed out in blue*] bilinenlerle zıt şeyler yazamazsın.
 * değişkenler arası ilişkisi tanımlamalıdır.
 * Mevcut zaman ve olanaklarla sınanabilecek sınırlı-lıkta olmalıdır.
 * Açık basit ve işlevsel şekilde ifade edilmelidir.
-  * \$\\\\rightarrow\$ [değişkenler - *crossed out*]
-  * \$\\\\rightarrow\$ sınanabilir, ölçülebilir olması.
+  * $\\rightarrow$ [değişkenler - *crossed out*]
+  * $\\rightarrow$ sınanabilir, ölçülebilir olması.
 
 *(Note: Brand name "Keskin Color" printed at the bottom-left).*
 
@@ -360,7 +365,7 @@ Bilimsel Süreçler hakkında genellemeler yapan
 ## Right Page
 
 * "Tanımlamalarımızı olabildiğince işlevsel yapmalıyız."
-  \$\\\\rightarrow\$ hipotezlerde böyle.
+  $\\rightarrow$ hipotezlerde böyle.
 
 ---
 
@@ -380,7 +385,7 @@ Bilimsel Süreçler hakkında genellemeler yapan
 
 **Schopenhauer**
 19. yy. sonu Yüzyılıdır.
-\$\\\\rightarrow\$ isteme ve tasarım olarak dünya
+$\\rightarrow$ isteme ve tasarım olarak dünya
 İnsan istemelerinin esiri olur, kölesine dönüşür.
 bilinçaltı istemedir hazlarla ilgilidir.
 
@@ -388,11 +393,12 @@ bilinçaltı istemedir hazlarla ilgilidir.
 > istemesi bitmeyecek biraz sonra tekrar isteyecek.
 > 
 > istemenin sonu yok napıcaz?
-> \$\\\\rightarrow\$ istemelerine karşılık vermemek mümkün oldukça azaltılacak.
+> $\\rightarrow$ istemelerine karşılık vermemek mümkün oldukça azaltılacak.
 
 *(Note: Brand name "Keskin Color" printed at the bottom-right).*
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.52_(2).md": \\n# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (2).jpeg
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(2).md": `
+# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (2).jpeg
 
 ## Header
 **sosyal bilim** (in red ink)
@@ -403,11 +409,11 @@ bilinçaltı istemedir hazlarla ilgilidir.
 
 * hipotez demek sınanmak üzere yazılır.
   * **[Enclosed in an arrow pointing from the line above]**
-    \$\\\\rightarrow\$ hipotez ya doğrulanır ya yanlışlanır.
+    $\\rightarrow$ hipotez ya doğrulanır ya yanlışlanır.
 
 * iletişim doyumu ile iş doyumu arasında pozitif bir ilişki vardır.
   * **[Enclosed in a bracket pointing from the line above]**
-    \$\\\\rightarrow\$ hocanın kitabının hipotezi
+    $\\rightarrow$ hocanın kitabının hipotezi
 
 * tahminin bir temeli olmalı
   1. kuramsal önermeler bunu söyler.
@@ -429,8 +435,9 @@ bilinçaltı istemedir hazlarla ilgilidir.
 * ispatlanmıştır denmez.
 
 *(Note: Brand name "Keskin Color" printed at the bottom-right).*
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(3).md": \\n# WhatsApp Image 2026-06-04 at 23.51.53 (3)
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(3).md": `
+# WhatsApp Image 2026-06-04 at 23.51.53 (3)
 
 **SELÇUKSEM | SELÇUK ÜNİVERSİTESİ**
 
@@ -467,8 +474,9 @@ Araştırmanın en başında olaylar arası tahmin edilen ilişkiye denir.
 *   Hipotez ve Değişkenler
 *   ...gi, Araştırma
 *   www.selcuk.edu.tr / selcuksem.selcuk.edu.tr (kısmen görünmektedir)
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(4).md": \\n# WhatsApp Image 2026-06-04 at 23.51.53 (4)
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(4).md": `
+# WhatsApp Image 2026-06-04 at 23.51.53 (4)
 
 **Dr. Birol GÜLNAR**
 
@@ -507,9 +515,9 @@ graph TD
     *   **Sol Bölüm:** İnsanlar
     *   **Sağ Bölüm:** Mesajlar
     *   **Yönlendirmeler:**
-        *   İnsanlar'dan Mesajlar'a sağa doğru bir yatay ok (\$\\\\rightarrow\$)
-        *   Mesajlar'dan İnsanlar'a sola doğru bir yatay ok (\$\\\\leftarrow\$)
-*   **Dikey Etkileşimler (Çift Yönlü Oklar \$\\\\updownarrow\$):**
+        *   İnsanlar'dan Mesajlar'a sağa doğru bir yatay ok ($\\rightarrow$)
+        *   Mesajlar'dan İnsanlar'a sola doğru bir yatay ok ($\\leftarrow$)
+*   **Dikey Etkileşimler (Çift Yönlü Oklar $\\updownarrow$):**
     *   En üstte **Çevre** ile üstteki **Kurum/Kültür** arasında çift yönlü dikey ok.
     *   Üstteki **Kurum/Kültür** ile ortadaki **Oval Alan (İnsanlar-Mesajlar)** arasında çift yönlü dikey ok.
     *   Ortadaki **Oval Alan (İnsanlar-Mesajlar)** ile alttaki **Kurum/Kültür** arasında çift yönlü dikey ok.
@@ -520,20 +528,21 @@ graph TD
 
 ---
 **42**
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(17).md": \\nEvli insanların intihar oranları bekarlara göre yüksektir. / düşüktür.
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(17).md": `
+Evli insanların intihar oranları bekarlara göre yüksektir. / düşüktür.
 
 * Bağımsız değişken = Medeni durumu
 * Bağımlı değişken = İntihar oranı
 * Ara değişken = toplumsal bütünleşme
 
-\$\\\\rightarrow\$ Evlilikte toplumsal bütünleşme daha fazladır.
+$\\rightarrow$ Evlilikte toplumsal bütünleşme daha fazladır.
 
 ---
 
 | | |
 | :--- | :--- |
-| örneğin bir suça yönelik davranış, buna neden olan 4 b.d.<br>1-) ekonomik darlık,<br>2-) Gelecekte suç işleme fırsatı,<br>3-) Sapkın geçmişi varsa<br>4-) Cezaların caydırıcı olmaması,<br><br>\$\\\\rightarrow\$ bağımsız<br>**Ailenin dağılması / çocuk**<br>\$\\\\rightarrow\$ ara değişken<br>* çocuklukta özgüven azlığı<br>* depresyon<br>* Akademik başarısızlık<br>* iş bulma olasılığının düşüklüğü<br><br>\$\\\\rightarrow\$ Bağımlı<br>**Büyüyünce gelir düzeyi düşük olacak.** | 33 yaşında askere gitmiş. Orda doktor dışlanmış. Orduda sinemacı olmuş. hayattaki en büyük korkum şu: çocuğunun istemediği nahoş bir hayat sürmesi korkusu. çocuğun olduğu için hayattan kopmayı düşünemezsin. Bunu sorarsan buda Ara değişkendir şimdi.<br><br>ülkenin %89'unun 10.000 TL bankada bulunmuyor. Bankalardaki mevduatın %78'i %1'in elindeymiş. |
+| örneğin bir suça yönelik davranış, buna neden olan 4 b.d.<br>1-) ekonomik darlık,<br>2-) Gelecekte suç işleme fırsatı,<br>3-) Sapkın geçmişi varsa<br>4-) Cezaların caydırıcı olmaması,<br><br>$\\rightarrow$ bağımsız<br>**Ailenin dağılması / çocuk**<br>$\\rightarrow$ ara değişken<br>* çocuklukta özgüven azlığı<br>* depresyon<br>* Akademik başarısızlık<br>* iş bulma olasılığının düşüklüğü<br><br>$\\rightarrow$ Bağımlı<br>**Büyüyünce gelir düzeyi düşük olacak.** | 33 yaşında askere gitmiş. Orda doktor dışlanmış. Orduda sinemacı olmuş. hayattaki en büyük korkum şu: çocuğunun istemediği nahoş bir hayat sürmesi korkusu. çocuğun olduğu için hayattan kopmayı düşünemezsin. Bunu sorarsan buda Ara değişkendir şimdi.<br><br>ülkenin %89'unun 10.000 TL bankada bulunmuyor. Bankalardaki mevduatın %78'i %1'in elindeymiş. |
 
 ---
 
@@ -550,7 +559,7 @@ bazende sadece birbirini etkiler buna korelasyon deriz.
 bu örnekte sebep olmaz sadece ilişki olur.
 Nedensel ilişki olmalı ba- bağımsız d. ..
 
-\$\\\\rightarrow\$ Doğru orantı varsa + korelasyon.
+$\\rightarrow$ Doğru orantı varsa + korelasyon.
 Biri artar diğeri azalırsa - korelasyon.
 
 Bir yerde belirleyici geçiyorsa dur Sor.
@@ -560,8 +569,9 @@ Burada bağımlı bağımsız değişken vardır.
 iş / Serbest belki de
 
 **Nirengi**
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(2).md": \\n# WhatsApp Image 2026-06-04 at 23.51.53 (2)
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(2).md": `
+# WhatsApp Image 2026-06-04 at 23.51.53 (2)
 
 ---
 
@@ -584,8 +594,9 @@ iş / Serbest belki de
 
 **İletişim Doyumu ile İş Doyumu arasındaki korelasyon:**  
 Çalışanların iş doyumunu, etkili bir iletişim doyumu etkiler.
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(5).md": \\n# WhatsApp Image 2026-06-04 at 23.51.53 (5)
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(5).md": `
+# WhatsApp Image 2026-06-04 at 23.51.53 (5)
 
 *(Defterin Sol Sayfası)*
 
@@ -618,15 +629,17 @@ Nicel ve nitel araştırma tarzlarının birlikte kullanılması
 | :--- | :--- |
 | - Katı veriler kullanılır.<br>sayı gibi veriler kullanır. | - Esnek veriler kullanılır.<br>izlenimler, kelimeler, cümleler fotoğraflar bulunur ve semboller |
 | - Pozitivist sosyal bilime güvenir. | - Yorumlayıcı veya sosyal bilime, eleştirel sosyal bilime güvenir. |
-| - Yeniden oluşturulmuş mantık kullanır.<br>\$\\\\downarrow\$<br>**Tümden gelim**<br>metotta genel hatları vardır zaten | - uygulamada mantık kullanır.<br>\$\\\\downarrow\$<br>net bir soru, net bir şey yoktur.<br>**Kervan yolda düzülür** |
-| - doğrusal araştırma yolunu izler.<br>\$\\\\downarrow\$<br>Ne yapacağı bellidir. \$\\\\rightarrow\$ daha az esnektir. (B, C planı yaparız biz) | - doğrusal olmayan yolu izler.<br>\$\\\\downarrow\$<br>ne yapacağı belli değildir. \$\\\\rightarrow\$ (Süpriz) |
+| - Yeniden oluşturulmuş mantık kullanır.<br>$\\downarrow$<br>**Tümden gelim**<br>metotta genel hatları vardır zaten | - uygulamada mantık kullanır.<br>$\\downarrow$<br>net bir soru, net bir şey yoktur.<br>**Kervan yolda düzülür** |
+| - doğrusal araştırma yolunu izler.<br>$\\downarrow$<br>Ne yapacağı bellidir. $\\rightarrow$ daha az esnektir. (B, C planı yaparız biz) | - doğrusal olmayan yolu izler.<br>$\\downarrow$<br>ne yapacağı belli değildir. $\\rightarrow$ (Süpriz) |
 | - değişkenler ve hipotezlerden başlar. | - olaylar ve bağlam önemlidir.<br>hangi koşulda olduğu önemli. |
 
 *(Sayfa Altı Markası: Keskin Color)*
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(8).md": \\nÖrgütsel iletişimin gelişimi; endüstriyel psikolojinin, sosyal psikolojinin, örgütsel davranış ve yönetim biliminin gelişimine eşlik etmiştir. Bu nedenle bu alandaki uzmanlar örgütsel iletişim çalışanlarının tipik olarak türettikleri egemen teorileri, kavramları ve konuları biçimlendirmişlerdir. Örgütsel iletişim üç ana sözlü iletişim geleneğini geliştirmiştir: (1) Topluluğa hitap etme, (2) ikna ve (3) bireylerarası, küçük grup ve kitle iletişimi üzerinde sosyal bilim araştırması. İletişim ve örgütün her ikisinin tanımı da araştırma konularını biçimlendiren gelenekler kadar farklıdır. Çünkü tanımlar çeşitli teorik varsayımları ve kavramları yansıtmaktadır (Putnam, 1982: 193). Konuyla ilgili ilk metinlerde, iletişim tanımları açıkça medya (araç) eksenine odaklanmakta ve mesaj yazımının tamlığı ve netliği araştırmayı biçimlendirmekteydi (McMurry, 1965: 131).
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(9).md": \\n...leşmiş bulunurlar → Bilim felsefesi verileri
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(8).md": `
+Örgütsel iletişimin gelişimi; endüstriyel psikolojinin, sosyal psikolojinin, örgütsel davranış ve yönetim biliminin gelişimine eşlik etmiştir. Bu nedenle bu alandaki uzmanlar örgütsel iletişim çalışanlarının tipik olarak türettikleri egemen teorileri, kavramları ve konuları biçimlendirmişlerdir. Örgütsel iletişim üç ana sözlü iletişim geleneğini geliştirmiştir: (1) Topluluğa hitap etme, (2) ikna ve (3) bireylerarası, küçük grup ve kitle iletişimi üzerinde sosyal bilim araştırması. İletişim ve örgütün her ikisinin tanımı da araştırma konularını biçimlendiren gelenekler kadar farklıdır. Çünkü tanımlar çeşitli teorik varsayımları ve kavramları yansıtmaktadır (Putnam, 1982: 193). Konuyla ilgili ilk metinlerde, iletişim tanımları açıkça medya (araç) eksenine odaklanmakta ve mesaj yazımının tamlığı ve netliği araştırmayı biçimlendirmekteydi (McMurry, 1965: 131).
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(9).md": `
+...leşmiş bulunurlar → Bilim felsefesi verileri
 
 Epistemeler
      ↓
@@ -660,17 +673,20 @@ Pozitifist / Konvansiyonalist / Realizm
 
 ---
 *Notebook Brand:* Keskin Color
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(6).md": \\nİletişim kurumlarda pek çok işlevleri yerine getirir. Örgütsel bağlamda iletişim altı işlevi yerine getirir. Bu işlevler; bilgi verme, düzenleme, bütünleş(tir)me, yönetim, ikna etme ve sosyalleştirmedir (Richmond vd., 2005: 25):
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(7).md": \\nZaman boyutu
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(6).md": `
+İletişim kurumlarda pek çok işlevleri yerine getirir. Örgütsel bağlamda iletişim altı işlevi yerine getirir. Bu işlevler; bilgi verme, düzenleme, bütünleş(tir)me, yönetim, ikna etme ve sosyalleştirmedir (Richmond vd., 2005: 25):
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(7).md": `
+Zaman boyutu
 Amac boyutu
 Kullanim boyutu
 Pozitif yontem bilim
 Genel kavramlar
 Hipotez bağımlı bağımsız değişken
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(10).md": \\n-> Konvansiyonele tepki
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(10).md": `
+-> Konvansiyonele tepki
 
          Bilim
            ↓
@@ -706,16 +722,18 @@ Ahlakın felsefesi    Siyasetin felsefesi    Estetik
 
 ---
 *Notebook Brand:* Keskin Color
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(11).md": \\n- Sosyal bil.-
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(11).md": `
+- Sosyal bil.-
 
 4. Ders
 -------
 
 Felsefe         Tinsel
 materyalist     idealist
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53.md": \\n# WhatsApp Image 2026-06-04 at 23.51.53
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53.md": `
+# WhatsApp Image 2026-06-04 at 23.51.53
 
 **SELÇUKSEM | SELÇUK ÜNİVERSİTESİ**
 
@@ -744,8 +762,9 @@ materyalist     idealist
 *   selcuksem@selcuk.edu.tr
 *   332.606 05 62
 *   https://selcuksem.selcuk.edu.tr
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(1).md": \\n# WhatsApp Image 2026-06-04 at 23.51.53 (1)
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(1).md": `
+# WhatsApp Image 2026-06-04 at 23.51.53 (1)
 
 **SELÇUKSEM | SELÇUK ÜNİVERSİTESİ**
 
@@ -791,8 +810,9 @@ Rasyonalizm metafizik kavramlarla ilgilenir.
 *   selcuksem@selcuk.edu.tr
 *   332.606 05 62
 *   https://selcuksem.selcuk.edu.tr
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(12).md": \\n<!-- [Redacted / Pixelated text at the top of the page] -->
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(12).md": `
+<!-- [Redacted / Pixelated text at the top of the page] -->
 
 # 7. Hafta
 ## Sosyal Bilim
@@ -824,8 +844,9 @@ ler
 
 ölçek ekonomisi
 ürün çok olursa düşük adet başı fiyat
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(15).md": \\nKurtlar Vadisi gibi yapımlar şiddet içeriyor dedin
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(15).md": `
+Kurtlar Vadisi gibi yapımlar şiddet içeriyor dedin
 insanların böyle yapımlardan etkilendiğine yönelik
 şiddetini ölçersin birinde 7
 birinde 5 diğerinde 3'lük nirengi
@@ -858,12 +879,13 @@ birlikte kullanılması
 | :--- | :--- |
 | - Kesin veriler kullanır<br>sayı gibi veriler<br>kullanır. | - Esnek veriler kullanır<br>izlenimler, kelimeler cümleler<br>fotoğraflar kullanır ve semboller |
 | - Pozitivist<br>sosyal bilime güvenir | - Yorumlayıcı veya sosyal<br>bilime eleştirel sosyal<br>bilime güvenir |
-| - yeniden oluşturulmuş<br>mantık kullanır.<br>\$\\\\rightarrow\$ tümdengelim<br>Masada genel hatları<br>vardır zaten | - uygulamadaki mantık<br>kullanır.<br>\$\\\\rightarrow\$ net bir Soru<br>net bir şey yoktur.<br>Kervan yolda düzülür |
-| - doğrusal araştırma<br>yolu izler<br>\$\\\\rightarrow\$ Ne yapacağı<br>bellidir. \$\\\\rightarrow\$ | - doğrusal olmayan<br>yolu izler<br>\$\\\\rightarrow\$ ne yapacağı<br>belli değildir.<br>Syf \$\\\\rightarrow\$ |
+| - yeniden oluşturulmuş<br>mantık kullanır.<br>$\\rightarrow$ tümdengelim<br>Masada genel hatları<br>vardır zaten | - uygulamadaki mantık<br>kullanır.<br>$\\rightarrow$ net bir Soru<br>net bir şey yoktur.<br>Kervan yolda düzülür |
+| - doğrusal araştırma<br>yolu izler<br>$\\rightarrow$ Ne yapacağı<br>bellidir. $\\rightarrow$ | - doğrusal olmayan<br>yolu izler<br>$\\rightarrow$ ne yapacağı<br>belli değildir.<br>Syf $\\rightarrow$ |
 | daha az esnektir<br>B, C Planı yaparız biz | |
 | - değişkenler ve<br>hipotezler kullanır | - anlamlar ve bağlam<br>önemlidir.<br>hangi koşulda olduğu<br>önemlidir. |
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(16).md": \\n# Sosyal Bil.
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(16).md": `
+# Sosyal Bil.
 
 ## Değişken meselesi
 
@@ -871,7 +893,7 @@ birlikte kullanılması
 | :--- | :--- |
 | Önce betimleyin<br>ne olduğunu açıklamaya çalışınız.<br>Sonra değişkenlerini ortaya koyunuz. | enflasyon<br>faiz arasında<br>değişken var mı<br>hangisi etken değ.<br>hangisi edilgen değ. |
 
-\$\\\\rightarrow\$ değişen aslında o olgunun kendisi değildir. sahip oldukları değişir.
+$\\rightarrow$ değişen aslında o olgunun kendisi değildir. sahip oldukları değişir.
 
 | | |
 | :--- | :--- |
@@ -891,7 +913,7 @@ Bağımlı bağımsız değişkeni en başta tespit etmezsen Araştırma çöker
 
 iş yerlerindeki taciz oranlarının Cinsiyet üstündeki
 destek
-(Bağımsız \$\\\\rightarrow\$ Cinsiyet, Bağımlı \$\\\\rightarrow\$ destek)
+(Bağımsız $\\rightarrow$ Cinsiyet, Bağımlı $\\rightarrow$ destek)
 
 ---
 
@@ -902,7 +924,7 @@ Bilimle yönetemediğiniz yerler olunca / Araştırmacılar
 
 Bence iki kapıcı getireceğine Türk İslam coğrafyasından insan getirin. Bunlar çok iyi tarım yaparlar.
 
-\$\\\\rightarrow\$ burada bağımlı değişken doğum oranlarının düşüşüdür, bağımsız değişken kadınların iş yerindeki etkisi.
+$\\rightarrow$ burada bağımlı değişken doğum oranlarının düşüşüdür, bağımsız değişken kadınların iş yerindeki etkisi.
 ülkende umut görürsen çocuk yaparsın.
 
 Bağımsız değişkenden etkilenen bağımlı değişken denir.
@@ -914,8 +936,9 @@ Bağımlı d. ile bağımsız d. arasındaki yol ve bu değişkenler aracılığ
 | Bağımsızdan bakarsan<br>" gibi | Bağımlıdan bakarsan<br>" gibi görünür. |
 
 ~~Şu insan~~
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(13).md": \\n<!-- [Redacted / Pixelated text at the top of the page] -->
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(13).md": `
+<!-- [Redacted / Pixelated text at the top of the page] -->
 
 # Sosyoloji
 
@@ -939,8 +962,9 @@ Herkesi eleştirir. Pozitifçiler Dar görüşlü
 anti demokratik insancıl değildir.
 
 <!-- [Redacted / Pixelated text at the bottom of the page] -->
-\",
-    "WhatsApp_Image_2026-06-04_at_23.51.53_(14).md": \\n# Sosyal Bil.
+`,
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(14).md": `
+# Sosyal Bil.
 
 | Sol Sütun | Sağ Sütun |
 | :--- | :--- |
@@ -955,7 +979,7 @@ BYD Çinde %30 indirim Türkiye'ye %30 zam vergisiymiş. Kazığı yemişiz.
 **ölçme işi önemli**
 
 Selam
-\"
+`
 };
 
 // Application state variables
