@@ -1,26 +1,3 @@
-# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (5).jpeg
-
-## Background Fragments (Partially Visible Papers at the Top)
-
-### Top Left Paper
-* `değişkenler`
-* `örnekler`
-
-### Top Right Paper
-* `İletişim Doyumu`
-* `Hipotez ve Değiş...`
-* `... Araştı...`
-
----
-
-## Logo / Header
-* **SELÇUKSEM | SELÇUK ÜNİVERSİTESİ** (Sürekli Eğitim Merkezi)
-* Selçuk Üniversitesi double-headed eagle emblem.
-
----
-
-## Main Content
-
 ### Değişkenler ve Hipotezler
 
 **Değişken :** İncelenecek kavrama ya da özelliğe denir.
@@ -43,10 +20,6 @@ Evli insanların intihar etme olasılığı bekarlara oranla daha düşüktür.
 
 Araştırmanın en başında olaylar arası tahmin edilen ilişkiye denir.
 Denenmek, sınanmak üzere yazılır. Denenmezse varsayım olur.
-Kitabın hipotezi; iletişim doyumu ile iş doyumu arasında pozitif ilişki ön g... (*Note: Cut off at the edge of the paper*).
+Kitabın hipotezi; iletişim doyumu ile iş doyumu arasında pozitif ilişki öngörür.
 
 ---
-
-## Footer
-* $\boldsymbol{\mathcal{\sigma}}$ 332.606 05 62 | $\triangle$ selcuksem@selcuk.edu.tr
-* $\boxed{\text{F}}$ 332.606 05 62 | $\mathcal{W}$ https://selcuksem.selcuk.edu.tr

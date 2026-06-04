@@ -33,4 +33,3 @@ Ahlakın felsefesi    Siyasetin felsefesi    Estetik
     Düşünceler arasındaki yasa ve ilkeleri inceler.
 
 ---
-*Notebook Brand:* Keskin Color

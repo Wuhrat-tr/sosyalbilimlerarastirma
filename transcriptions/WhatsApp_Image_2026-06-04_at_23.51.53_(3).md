@@ -1,5 +1,3 @@
-# WhatsApp Image 2026-06-04 at 23.51.53 (3)
-
 **SELÇUKSEM | SELÇUK ÜNİVERSİTESİ**
 
 ---
@@ -23,15 +21,3 @@ Araştırmanın en başında olaylar arası tahmin edilen ilişkiye denir.
 *   Kitabın hipotezi, iletişim doyumu ile iş doyumu arasında pozitif ilişki öngörür.
 
 ---
-*İletişim Bilgileri (Sayfa Alt Bilgisi):*
-*   332.606 05 62
-*   selcuksem@selcuk.edu.tr
-*   332.606 05 62
-*   https://selcuksem.selcuk.edu.tr
-
----
-*Arka Planda Görünen Kısmi Metinler (Zarf/Broşür):*
-*   İletişim Doyumu
-*   Hipotez ve Değişkenler
-*   ...gi, Araştırma
-*   www.selcuk.edu.tr / selcuksem.selcuk.edu.tr (kısmen görünmektedir)

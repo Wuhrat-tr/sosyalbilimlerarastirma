@@ -1,20 +1,3 @@
-# Transcription of WhatsApp Image 2026-06-04 at 23.51.52 (3).jpeg
-
-## Background Fragments (Partially Visible Papers at the Top)
-
-### Top Left Paper
-* `değişkenler`
-* `örnekler`
-
-### Top Right Paper
-* `İletişim Doyumu`
-* `Hipotez ve Değiş...`
-* `... Araştı...`
-
----
-
-## Main Content
-
 İletişim Doyumu: Çalışanların örgüt içindeki iletişim kanallarının etkililiği, açıklığı, güvenirliği ve katılımcılığına yönelik memnuniyet düzeyidir.
 
 Çalışanların motivasyonunu, iş tatminini ve örgütsel bağlılığını artırır.

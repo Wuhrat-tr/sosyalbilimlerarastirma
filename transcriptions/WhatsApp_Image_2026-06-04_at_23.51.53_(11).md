@@ -1,4 +1,4 @@
-- Sosyal bil.-
+- Sosyal Bilimler.-
 
 4. Ders
 -------

@@ -31,7 +31,7 @@ birlikte kullanılması
 | :--- | :--- |
 | - Kesin veriler kullanır<br>sayı gibi veriler<br>kullanır. | - Esnek veriler kullanır<br>izlenimler, kelimeler cümleler<br>fotoğraflar kullanır ve semboller |
 | - Pozitivist<br>sosyal bilime güvenir | - Yorumlayıcı veya sosyal<br>bilime eleştirel sosyal<br>bilime güvenir |
-| - yeniden oluşturulmuş<br>mantık kullanır.<br>$\rightarrow$ tümdengelim<br>Masada genel hatları<br>vardır zaten | - uygulamadaki mantık<br>kullanır.<br>$\rightarrow$ net bir Soru<br>net bir şey yoktur.<br>Kervan yolda düzülür |
-| - doğrusal araştırma<br>yolu izler<br>$\rightarrow$ Ne yapacağı<br>bellidir. $\rightarrow$ | - doğrusal olmayan<br>yolu izler<br>$\rightarrow$ ne yapacağı<br>belli değildir.<br>Syf $\rightarrow$ |
+| - yeniden oluşturulmuş<br>mantık kullanır.<br>→ tümdengelim<br>Masada genel hatları<br>vardır zaten | - uygulamadaki mantık<br>kullanır.<br>→ net bir Soru<br>net bir şey yoktur.<br>Kervan yolda düzülür |
+| - doğrusal araştırma<br>yolu izler<br>→ Ne yapacağı<br>bellidir. → | - doğrusal olmayan<br>yolu izler<br>→ ne yapacağı<br>belli değildir.<br>Syf → |
 | daha az esnektir<br>B, C Planı yaparız biz | |
 | - değişkenler ve<br>hipotezler kullanır | - anlamlar ve bağlam<br>önemlidir.<br>hangi koşulda olduğu<br>önemlidir. |

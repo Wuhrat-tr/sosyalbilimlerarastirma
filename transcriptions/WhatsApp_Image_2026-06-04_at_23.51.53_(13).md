@@ -1,5 +1,3 @@
-<!-- [Redacted / Pixelated text at the top of the page] -->
-
 # Sosyoloji
 
 Yorumlayıcı araştırmacı
@@ -20,5 +18,3 @@ Eleştirel y.
 
 Herkesi eleştirir. Pozitifçiler Dar görüşlü
 anti demokratik insancıl değildir.
-
-<!-- [Redacted / Pixelated text at the bottom of the page] -->

@@ -1,27 +1,20 @@
-# Transcription of WhatsApp Image 2026-06-04 at 23.51.52.jpeg
-
-## Top Left
 * `[Liberaller]`
-* `[+ Kominist]`
-* `[Oligarşi] )))`
+* `[+ Komünist]`
+* `[Oligarşi]`
 
 ---
 
-## Main Content
-
-### [Header in Red Ink]
-**Sosyal bil**
+**Sosyal Bilimler**
 **6. hafta** (underlined)
 
 ---
 
-### [Text]
 ... Belli yöntemlere uygun veriler üretme, bilgileri üretmek ve sürekli sorgulama sürecidir.
 "Kendi kendini sürekli sorgulamasıdır."
 
 Gözlenebildiği fenomeni tanımlamak, açıklamak için çalışır.
 
-> **[Side note in small text on the right]**
+>
 > 3 madde var
 > sorusu böyle
 > 
@@ -36,23 +29,19 @@ ve ilerlemek için önermelerde bulunma.
 
 Yöntembilim üstün yanlarını sınırlılıklarını başarıları için ara bilimsel...
 
-* **[Enclosed in a bracket pointing from "Pozitif bilimden"]**
+*
   Pozitif bilimden
-  $\rightarrow$ üstün yanları sınırlılıkları inceleyen başarılar ve başarısızlıklar için yapısal nedenler öne sürerler.
+  → üstün yanları sınırlılıkları inceleyen başarılar ve başarısızlıklar için yapısal nedenler öne sürerler.
 
-> **[Side note on the right]**
+>
 > Field Ressearch
-> $\rightarrow$ Alan Araştırması
+> → Alan Araştırması
 
 Bilimsel Süreçler hakkında genellemeler yapan
 
 ---
 
-### [Table]
-
-| Pozitifist Yöntembilimi | Yorumlayıcı y.b. | Eleştirel y.b. |
+| Pozitifist Yöntembilimi | Yorumlayıcı yöntembilim | Eleştirel yöntembilim |
 | :--- | :--- | :--- |
-| kesin nedensel | y.b. | y.b. |
+| kesin nedensel | yöntembilim | yöntembilim |
 | İstatistik Final | | |
-
-*(Note: Brand name "Keskin Color" printed at the bottom-left).*

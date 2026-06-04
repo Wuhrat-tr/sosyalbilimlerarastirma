@@ -1,5 +1,3 @@
-# WhatsApp Image 2026-06-04 at 23.51.53 (2)
-
 ---
 
 *   **Geri Bildirim**  

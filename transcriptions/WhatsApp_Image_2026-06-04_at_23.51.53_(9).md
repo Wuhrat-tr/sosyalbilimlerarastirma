@@ -31,4 +31,3 @@ Pozitifist / Konvansiyonalist / Realizm
     bakarız
 
 ---
-*Notebook Brand:* Keskin Color

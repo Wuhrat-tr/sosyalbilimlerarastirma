@@ -1,5 +1,3 @@
-<!-- [Redacted / Pixelated text at the top of the page] -->
-
 # 7. Hafta
 ## Sosyal Bilim
 

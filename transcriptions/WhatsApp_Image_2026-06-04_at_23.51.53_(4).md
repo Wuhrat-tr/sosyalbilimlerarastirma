@@ -1,5 +1,3 @@
-# WhatsApp Image 2026-06-04 at 23.51.53 (4)
-
 **Dr. Birol GÜLNAR**
 
 duygularını, ilişkilerini ve becerilerini kapsar. Bu önermeler şekil 1'de görülmektedir. Bu işlevsel model örgütsel iletişimin tanımının oluşmasına önderlik eder: Örgütsel iletişim; çevresel belirsizliğin üstesinden gelmek için birbirine bağlı ilişkiler ağı içerisinde mesajların oluşturulması ve değiştirilmesi sürecidir. Örgütsel iletişimin bu algılaması yedi anahtar kavramı içerir: süreç, mesaj, ağ, karşılıklı bağlılık, ilişki, çevre ve belirsizlik (Goldhaber, 1990: 16).
@@ -37,9 +35,9 @@ graph TD
     *   **Sol Bölüm:** İnsanlar
     *   **Sağ Bölüm:** Mesajlar
     *   **Yönlendirmeler:**
-        *   İnsanlar'dan Mesajlar'a sağa doğru bir yatay ok ($\rightarrow$)
-        *   Mesajlar'dan İnsanlar'a sola doğru bir yatay ok ($\leftarrow$)
-*   **Dikey Etkileşimler (Çift Yönlü Oklar $\updownarrow$):**
+        *   İnsanlar'dan Mesajlar'a sağa doğru bir yatay ok (→)
+        *   Mesajlar'dan İnsanlar'a sola doğru bir yatay ok (←)
+*   **Dikey Etkileşimler (Çift Yönlü Oklar ↕):**
     *   En üstte **Çevre** ile üstteki **Kurum/Kültür** arasında çift yönlü dikey ok.
     *   Üstteki **Kurum/Kültür** ile ortadaki **Oval Alan (İnsanlar-Mesajlar)** arasında çift yönlü dikey ok.
     *   Ortadaki **Oval Alan (İnsanlar-Mesajlar)** ile alttaki **Kurum/Kültür** arasında çift yönlü dikey ok.

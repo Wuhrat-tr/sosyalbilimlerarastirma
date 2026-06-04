@@ -1,5 +1,3 @@
-# WhatsApp Image 2026-06-04 at 23.51.53
-
 **SELÇUKSEM | SELÇUK ÜNİVERSİTESİ**
 
 ---
@@ -22,8 +20,3 @@
 *   **Özgüven azalması, depresyon, düşük notlar, düşük gelir, iş bulma zorluğu...** [Ara değişken örnekleri]
 
 ---
-*İletişim Bilgileri (Sayfa Alt Bilgisi):*
-*   332.606 05 62
-*   selcuksem@selcuk.edu.tr
-*   332.606 05 62
-*   https://selcuksem.selcuk.edu.tr

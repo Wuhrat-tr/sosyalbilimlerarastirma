@@ -1,5 +1,3 @@
-# WhatsApp Image 2026-06-04 at 23.51.53 (1)
-
 **SELÇUKSEM | SELÇUK ÜNİVERSİTESİ**
 
 ---
@@ -36,11 +34,6 @@ Rasyonalizm metafizik kavramlarla ilgilenir.
     *   **Sözlü İletişim:** Toplantı, yüz yüze
     *   **Yazılı İletişim:** e-posta, rapor
     *   **Görsel İletişim:** Sunumlar
-    *   **Dijital İletişim:** Mesajlar / uyg. (uygulamalar)
+    *   **Dijital İletişim:** Mesajlar / uygulamalar (uygulamalar)
 
 ---
-*İletişim Bilgileri (Sayfa Alt Bilgisi):*
-*   332.606 05 62
-*   selcuksem@selcuk.edu.tr
-*   332.606 05 62
-*   https://selcuksem.selcuk.edu.tr
