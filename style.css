@@ -280,6 +280,7 @@ main {
     border-radius: var(--border-radius-md);
     padding: 2.5rem;
     box-shadow: var(--shadow-lg);
+    min-width: 0; /* Prevents grid layout overflow from wide children like tables */
 }
 
 .study-body h2 {
@@ -666,6 +667,7 @@ table th:not(:first-child), table td:not(:first-child) {
     height: calc(100vh - 240px);
     overflow-y: auto;
     box-shadow: var(--shadow-lg);
+    min-width: 0; /* Prevents grid layout overflow */
 }
 
 .note-viewer h2 {
