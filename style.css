@@ -661,11 +661,40 @@ tr:last-child td {
 }
 
 .note-viewer-content {
-    white-space: pre-wrap;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.9rem;
+    font-family: var(--font-body);
+    font-size: 1.05rem;
     color: var(--text-secondary);
-    line-height: 1.5;
+    line-height: 1.7;
+}
+
+.note-viewer-content p {
+    margin-bottom: 1.25rem;
+}
+
+.note-viewer-content h1, .note-viewer-content h2, .note-viewer-content h3 {
+    font-family: var(--font-heading);
+    color: var(--text-primary);
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.note-viewer-content h1 { font-size: 1.7rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; }
+.note-viewer-content h2 { font-size: 1.35rem; color: var(--accent-secondary); }
+.note-viewer-content h3 { font-size: 1.15rem; color: var(--text-primary); }
+
+.note-viewer-content ul, .note-viewer-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.note-viewer-content li {
+    margin-bottom: 0.5rem;
+}
+
+.note-viewer-content hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 2rem 0;
 }
 
 /* Responsive Scaling */

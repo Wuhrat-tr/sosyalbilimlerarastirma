@@ -125,7 +125,7 @@ const QUESTIONS = [
         id: 18,
         ref: "WhatsApp Image 2026-06-04 at 23.51.53.jpeg",
         question: "Sosyal araştırmalarda nirengi (triangulation) ne anlama gelir? Nirenginin araştırmaya sağladığı temel faydayı belirterek, nirenginin dört ana türünü yazınız.",
-        answer: "Nirengi; herhangi bir sosyal konuya, kurama veya ölçüm meselesine birden fazla bakış açısıyla bakmaktır. Temel Faydası: Tek bir yöntemin, veri kaynağının veya gözlemcinin getireceği öznelliği ve sınırlılıkları azaltarak, araştırmanın güvenilirliğini ve geçerliliğini en üst duyeye çıkarmaktır. Dört ana türü: Ölçüm/Veri Nirengisi, Gözlemci Nirengisi, Kuram Nirengisi ve Yöntem Nirengisi'dir.",
+        answer: "Nirengi; herhangi bir sosyal konuya, kurama veya ölçüm meselesine birden fazla bakış açısıyla bakmaktır. Temel Faydası: Tek bir yöntemin, veri kaynağının veya gözlemcinin getireceği öznelliği ve sınırlılıkları azaltarak, araştırmanın güvenilirliğini ve geçerliliğini en üst düzeyeye çıkarmaktır. Dört ana türü: Ölçüm/Veri Nirengisi, Gözlemci Nirengisi, Kuram Nirengisi ve Yöntem Nirengisi'dir.",
         noteRef: "WhatsApp_Image_2026-06-04_at_23.51.53.md"
     },
     {
@@ -986,6 +986,115 @@ Selam
 let currentQuestionIndex = 0;
 let userAnswers = {}; // key: questionId, value: answerText
 
+// 24 Ders Notunun Konu Başlıkları Eşleştirmesi
+const NOTE_TITLES = {
+    "WhatsApp_Image_2026-06-04_at_23.51.52.md": "Ders 6: Sosyal Bilimlerde Sürekli Sorgulama & Paradigmalar",
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(1).md": "Ders 6: Kuram Geliştirme & Schopenhauer İsteme Felsefesi",
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(2).md": "Ders 6: Hipotez Sınama & Araştırma Tasarımında Nirengi",
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(3).md": "İş Doyumu ve İletişim Doyumu Arasındaki Korelasyon",
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(4).md": "Örgütsel İletişim: İletişim ve İş Doyumu İlişkisi",
+    "WhatsApp_Image_2026-06-04_at_23.51.52_(5).md": "Değişkenler: Bağımlı, Bağımsız ve Aracı Değişkenler (SELÇUKSEM)",
+    "WhatsApp_Image_2026-06-04_at_23.51.53.md": "Değişken İlişkileri: Nedensel Zincir ve Nirengi Türleri (SELÇUKSEM)",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(1).md": "Felsefi İki Kamp (Rasyonalizm/Pozitivizm) & İletişim Türleri",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(2).md": "Geri Bildirim, Engeller & İletişim/İş Doyumu Çift Yönlü Etkisi",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(3).md": "Değişkenler ve Hipotezler: Medeni Durum ve İntihar Analizi",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(4).md": "Dr. Birol Gülnar Örgütsel İletişim Modeli Şeması",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(5).md": "Nirengi Örnekleri (Kurtlar Vadisi) & Nicel-Nitel Farkları Tablosu",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(6).md": "Örgütsel İletişimin Altı Temel İşlevi (Richmond vd., 2005)",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(7).md": "Araştırmanın Zaman, Amaç ve Kullanım Boyutları",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(8).md": "Örgütsel İletişimin Tarihsel Gelişimi ve Sözlü Gelenekler",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(9).md": "Ders 5: Epistemoloji (Rasyonalist, Empirist, Konvansiyonalist)",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(10).md": "Felsefenin 4 Temel Alanı: Ontoloji, Epistemoloji, Aksiyoloji, Mantık",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(11).md": "Ders 4: Felsefi ve Tinsel (Materyalist vs. İdealist) Yaklaşımlar",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(12).md": "Ders 7: Yorumlayıcı ve Eleştirel Yaklaşımlar (Marx & Freud)",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(13).md": "İletişim Ölçekleri, İstatistikler & Makrososyolojik Araştırmalar",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(14).md": "Nirengi Tanımı & Ölçmenin Önemi (Enflasyon ve TAREX)",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(15).md": "Gözlemci, Kuram ve Yöntem Nirengisi & Nicel vs. Nitel Tablosu",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(16).md": "Değişkenler: Bağımlı/Bağımsız Tespitinin Önemi & Darp Anekdotu",
+    "WhatsApp_Image_2026-06-04_at_23.51.53_(17).md": "Nedensellik vs. Korelasyon: Depresyon & Türkiye Servet Dağılımı"
+};
+
+// Simple Markdown to HTML Parser
+function parseMarkdown(text) {
+    if (!text) return '';
+    let html = text;
+    
+    // Replace Math symbols/arrows first
+    html = html.replace(/\$\\\\rightarrow\$/g, ' → ')
+               .replace(/\$\\rightarrow\$/g, ' → ')
+               .replace(/\$\\\\updownarrow\$/g, ' ↕ ')
+               .replace(/\$\\updownarrow\$/g, ' ↕ ')
+               .replace(/\$\\\\downarrow\$/g, ' ↓ ')
+               .replace(/\$\\downarrow\$/g, ' ↓ ')
+               .replace(/\$\\\\sigma\$/g, ' σ ');
+
+    // Convert headings
+    html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>')
+               .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+               .replace(/^# (.*$)/gim, '<h1>$1</h1>');
+               
+    // Convert horizontal lines
+    html = html.replace(/^---$/gim, '<hr>');
+
+    // Convert bold and italics
+    html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+    
+    // Parse tables
+    let lines = html.split('\n');
+    let inTable = false;
+    let tableHtml = '';
+    
+    for (let i = 0; i < lines.length; i++) {
+        let line = lines[i].trim();
+        if (line.startsWith('|') && line.endsWith('|')) {
+            if (line.includes('---')) {
+                continue;
+            }
+            if (!inTable) {
+                inTable = true;
+                tableHtml = '<div class="table-container"><table><tbody>';
+            }
+            let cells = line.split('|').slice(1, -1);
+            tableHtml += '<tr>';
+            cells.forEach(cell => {
+                tableHtml += '<td>' + cell.trim() + '</td>';
+            });
+            tableHtml += '</tr>';
+            lines[i] = '';
+        } else {
+            if (inTable) {
+                inTable = false;
+                tableHtml += '</tbody></table></div>';
+                lines[i] = tableHtml + '\n' + lines[i];
+            }
+        }
+    }
+    html = lines.join('\n');
+
+    // Convert bullet lists
+    html = html.replace(/^\* (.*$)/gim, '<li>$1</li>');
+    html = html.replace(/^- (.*$)/gim, '<li>$1</li>');
+    
+    // Double newlines to paragraphs
+    let paragraphs = html.split('\n\n');
+    html = paragraphs.map(p => {
+        let trimmed = p.trim();
+        if (!trimmed) return '';
+        if (trimmed.startsWith('<h') || trimmed.startsWith('<hr') || trimmed.startsWith('<div') || trimmed.startsWith('<li>') || trimmed.startsWith('<tr>')) {
+            return trimmed;
+        }
+        return '<p>' + trimmed.replace(/\n/g, '<br>') + '</p>';
+    }).join('\n');
+    
+    // Wrap lists in ul
+    html = html.replace(/(<li>.*?<\/li>)+/gs, (match) => {
+        return '<ul>' + match + '</ul>';
+    });
+
+    return html;
+}
+
 // Load answers from localStorage on start
 function loadState() {
     const saved = localStorage.getItem('social_sciences_quiz_answers');
@@ -1188,7 +1297,7 @@ function renderNoteList(keys) {
     keys.forEach(key => {
         const btn = document.createElement('button');
         btn.className = "note-item " + (key === activeNoteKey ? 'active' : '');
-        btn.textContent = key.replace('.md', '').replace(/_/g, ' ');
+        btn.textContent = NOTE_TITLES[key] || key.replace('.md', '').replace(/_/g, ' ');
         btn.addEventListener('click', () => {
             activeNoteKey = key;
             // Update active styling
@@ -1205,8 +1314,8 @@ function viewNote(key) {
     const contentEl = document.getElementById('note-viewer-content');
     
     if (titleEl && contentEl && RAW_NOTES[key]) {
-        titleEl.textContent = key.replace('.md', '').replace(/_/g, ' ');
-        contentEl.textContent = RAW_NOTES[key];
+        titleEl.textContent = NOTE_TITLES[key] || key.replace('.md', '').replace(/_/g, ' ');
+        contentEl.innerHTML = parseMarkdown(RAW_NOTES[key]);
     }
 }
 
@@ -1216,7 +1325,7 @@ if (searchInput) {
     searchInput.addEventListener('input', (e) => {
         const query = e.target.value.toLowerCase();
         const filteredKeys = Object.keys(RAW_NOTES).filter(key => {
-            const displayName = key.replace(/_/g, ' ').toLowerCase();
+            const displayName = (NOTE_TITLES[key] || key.replace(/_/g, ' ')).toLowerCase();
             const rawText = RAW_NOTES[key].toLowerCase();
             return displayName.includes(query) || rawText.includes(query);
         });
