@@ -76,7 +76,7 @@ const QUESTIONS = [
         id: 11,
         ref: "WhatsApp Image 2026-06-04 at 23.51.52 (1).jpeg, (2).jpeg",
         question: "Ders notlarında geçen yönergeler doğrultusunda, bilimsel ve iyi yazılmış bir araştırmada bulunması gereken hipotezin 6 temel özelliğini maddeler halinde yazınız.",
-        answer: "İyi bir hipotezin 6 temel özelliği şunlardır:\\n1. Kuramsal bir temele bağlı olmalıdır (rastgele tahmin olamaz).\\n2. Araştırmadaki tüm değişkenler (bağımlı, bağımsız, ara) hipotezde net bir şekilde görünmelidir.\\n3. Bilimsel olarak doğruluğu kanıtlanmış (bilinen) gerçeklerle zıt şeyler yazılamaz.\\n4. Değişkenler arası ilişkiyi ve yönünü açıkça tanımlamalıdır.\\n5. Açık, basit ve işlevsel şekilde ifade edilmeli; sınanabilir ve ölçülebilir olmalıdır.\\n6. Araştırmacının mevcut zaman ve olanaklarıyla sınanabilecek bir sınırlılıkta olmalıdır.",
+        answer: "İyi bir hipotezin 6 temel özelliği şunlardır:\\n1. Kuramsal bir temele bağlı olmalıdır (rastgele tahmin olamaz).\\n2. Araştırmadaki tüm değişkenler (bağımlı, bağımsız, ara) hipotezde net bir şekilde görünmelidir.\\n3. Bilimsel olarak doğruluğu kanıtlanmış (bilinen) gerçeklerle zıt şeyler yazıolaramaz.\\n4. Değişkenler arası ilişkiyi ve yönünü açıkça tanımlamalıdır.\\n5. Açık, basit ve işlevsel şekilde ifade edilmeli; sınanabilir ve ölçülebilir olmalıdır.\\n6. Araştırmacının mevcut zaman ve olanaklarıyla sınanabilecek bir sınırlılıkta olmalıdır.",
         noteRef: "WhatsApp_Image_2026-06-04_at_23.51.52_(1).md"
     },
     {
@@ -994,7 +994,7 @@ function updateProgressBar() {
         if (percentage === 0) {
             textEl.textContent = "Klasik sınava hazırlanmak için 20 sorudan henüz çözdüğünüz olmadı. Başarılar!";
         } else if (percentage < 100) {
-            textEl.textContent = Toplam 20 sorudan \ tanesini yanıtladınız. Çalışmaya devam, hedeflenen puan: 100!;
+            textEl.textContent = "Toplam 20 sorudan " + answeredCount + " tanesini yanıtladınız. Çalışmaya devam, hedeflenen puan: 100!";
         } else {
             textEl.textContent = "Tebrikler! Tüm soruları çözdünüz. Sınavdan 100 almaya hazırsınız!";
         }
@@ -1061,13 +1061,13 @@ const showAnsBtn = document.getElementById('quiz-show-ans-btn');
 
 function renderCurrentQuestion() {
     const q = QUESTIONS[currentQuestionIndex];
-    qNumberEl.textContent = Soru \ / \;
-    qRefEl.textContent = Görsel Kaynak: \;
+    qNumberEl.textContent = "Soru " + q.id + " / " + QUESTIONS.length;
+    qRefEl.textContent = "Görsel Kaynak: " + q.ref;
     qTextEl.textContent = q.question;
     
     // Set input value
     qInputEl.value = userAnswers[q.id] || "";
-    charCounterEl.textContent = \ karakter;
+    charCounterEl.textContent = qInputEl.value.length + " karakter";
     
     // Collapse answer card on load
     modelAnsCardEl.classList.remove('show');
@@ -1075,11 +1075,11 @@ function renderCurrentQuestion() {
     
     // Set models answer content
     modelAnsTextEl.textContent = q.answer.replace(/\\n/g, '\n');
-    modelRefTextEl.textContent = Orijinal Not Sayfası: \;
+    modelRefTextEl.textContent = "Orijinal Not Sayfası: " + q.noteRef.replace(/_/g, ' ');
 }
 
 qInputEl.addEventListener('input', () => {
-    charCounterEl.textContent = \ karakter;
+    charCounterEl.textContent = qInputEl.value.length + " karakter";
 });
 
 // Toggle Answer Card
@@ -1131,13 +1131,13 @@ function renderAnswerKey() {
         card.className = "answer-key-card";
         
         const heading = document.createElement('h3');
-        heading.textContent = Soru \: \;
+        heading.textContent = "Soru " + q.id + ": " + q.question;
         card.appendChild(heading);
         
         const answerPara = document.createElement('p');
         answerPara.style.whiteSpace = "pre-wrap";
         // Format model answers beautifully
-        answerPara.innerHTML = <strong>Sınav Cevabı (100 Puanlık):</strong><br>\<br><br><span style="color: var(--text-muted); font-size: 0.8rem; font-style: italic;">Orijinal Kaynak: \</span>;
+        answerPara.innerHTML = "<strong>Sınav Cevabı (100 Puanlık):</strong><br>" + q.answer.replace(/\\n/g, '<br>') + "<br><br><span style=\"color: var(--text-muted); font-size: 0.8rem; font-style: italic;\">Orijinal Kaynak: " + q.noteRef.replace(/_/g, ' ') + "</span>";
         card.appendChild(answerPara);
         
         container.appendChild(card);
@@ -1163,8 +1163,7 @@ function renderNoteList(keys) {
     
     keys.forEach(key => {
         const btn = document.createElement('button');
-        btn.className = 
-ote-item \;
+        btn.className = "note-item " + (key === activeNoteKey ? 'active' : '');
         btn.textContent = key.replace('.md', '').replace(/_/g, ' ');
         btn.addEventListener('click', () => {
             activeNoteKey = key;
