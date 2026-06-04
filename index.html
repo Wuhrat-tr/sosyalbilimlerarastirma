@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosyal Bilimler & Örgütsel İletişim Sınav Hazırlık Portalı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="brand">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent-primary);"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+            <h1>Sosyal Bilimler Sınav Portalı</h1>
+        </div>
+        <nav class="nav-tabs">
+            <button class="tab-btn active" data-tab="tab-study">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                Konu Anlatımı
+            </button>
+            <button class="tab-btn" data-tab="tab-quiz">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                İnteraktif Sınav
+            </button>
+            <button class="tab-btn" data-tab="tab-answers">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Cevap Anahtarı
+            </button>
+            <button class="tab-btn" data-tab="tab-notes">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+                Orijinal Ders Notları
+            </button>
+        </nav>
+    </header>
+
+    <!-- Global Progress Bar Dashboard -->
+    <div class="dashboard-bar">
+        <div class="progress-card">
+            <div class="progress-info">
+                <h3>Sınav Hazırlık İlerleme Durumu</h3>
+                <p id="progress-text">Klasik sınava hazırlanmak için 20 sorudan henüz çözdüğünüz olmadı. Başarılar!</p>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="progress-badge" id="progress-badge">0%</div>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- STUDY GUIDE TAB (Konu Anlatımı) -->
+        <section id="tab-study" class="tab-content active">
+            <div class="study-layout">
+                <aside class="study-sidebar">
+                    <button class="study-nav-btn active" data-study="study-1">1. Bilim ve Sosyal Bilim</button>
+                    <button class="study-nav-btn" data-study="study-2">2. Felsefe ve Mantık</button>
+                    <button class="study-nav-btn" data-study="study-3">3. Arthur Schopenhauer</button>
+                    <button class="study-nav-btn" data-study="study-4">4. Hipotez Kriterleri</button>
+                    <button class="study-nav-btn" data-study="study-5">5. Değişkenler ve Korelasyon</button>
+                    <button class="study-nav-btn" data-study="study-6">6. Nirengi (Triangulation)</button>
+                    <button class="study-nav-btn" data-study="study-7">7. Örgütsel İletişim</button>
+                    <button class="study-nav-btn" data-study="study-8">8. Richmond ve İletişim İşlevleri</button>
+                    <button class="study-nav-btn" data-study="study-9">9. Orijinal Ders Anekdotları</button>
+                    <button class="study-nav-btn" data-study="study-10">10. Ekonomik İpuçları</button>
+                </aside>
+
+                <article class="study-body">
+                    <!-- Study sections will be dynamically injected or selected -->
+                    <div id="study-1" class="study-section active">
+                        <h2>1. Bilim ve Sosyal Bilim Yöntemleri</h2>
+                        <p>Ders notlarına göre bilim; <strong>belli yöntemlere uygun veriler üretme, bilgileri üretme ve sürekli sorgulama sürecidir</strong>. Bilimin en ayırt edici özelliği <strong>"kendi kendini sürekli sorgulamasıdır"</strong>.</p>
+                        <p>Gözlenebildiği fenomenleri tanımlamak ve açıklamak için çalışır. Bilimsel süreçler hakkında genel çıkarımlar ve öngörüler yapar. Bilimsel bilgi <strong>nesnel, mantıksal ve tutarlıdır</strong>.</p>
+                        <h3>Sosyal Bilimde Üç Temel Yaklaşım</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Boyut</th>
+                                    <th>Pozitifist Yöntembilim</th>
+                                    <th>Yorumlayıcı Sosyal Yaklaşım</th>
+                                    <th>Eleştirel Sosyal Yaklaşım</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Özellik</strong></td>
+                                    <td>Maddecidir, materyalisttir. Kesin nedensel bağlar arar. Doğa bilimlerini taklit eder.</td>
+                                    <td>İnsanların birbirleriyle nasıl etkileşim kurduğunu, anlam oluşturduğunu inceler.</td>
+                                    <td>Toplumdaki gizli güç ilişkilerini ve tahakkümü eleştirir.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Veri Yapısı</strong></td>
+                                    <td>Nicel (sayı, istatistik) ve kesin katı veriler kullanır.</td>
+                                    <td>Kelime, cümle, izlenim ve sembol gibi esnek verilerle çalışır.</td>
+                                    <td>Bağlamsal ve tarihsel süreç verilerine bakar.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Mantık/Yöntem</strong></td>
+                                    <td>Yeniden oluşturulmuş mantık (*reconstructed logic*) / Tümden gelim.</td>
+                                    <td>Uygulamadaki mantık (*logic in practice*) / Tüme varım.</td>
+                                    <td>Karl Marx ve Sigmund Freud'un eleştirel kuramları.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Araştırma Yolu</strong></td>
+                                    <td>Doğrusaldır. Ne yapacağı bellidir. Değişken ve hipotez odaklıdır.</td>
+                                    <td>Doğrusal değildir. "Kervan yolda düzülür" anlayışı hakimdir.</td>
+                                    <td>Görünenin arkasındaki yapısal çelişkilere dayanır.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="callout info">
+                            <h4>Önemli Not</h4>
+                            <p>Eleştirel sosyal yaklaşım, pozitivist sosyal bilimleri "dar görüşlü, anti-demokratik ve insani (insancıl) olmamakla" suçlar.</p>
+                        </div>
+                    </div>
+
+                    <div id="study-2" class="study-section">
+                        <h2>2. Felsefe ve Mantık</h2>
+                        <p>Sosyal bilimlerin epistemolojik kökleri felsefenin 4 temel alanına dayanır:</p>
+                        <ol>
+                            <li><strong>Ontoloji (Varlık Felsefesi):</strong> Varlığı ve olanı inceler. En temel sorusu <strong>"Ne?"</strong> sorusudur.</li>
+                            <li><strong>Bilgi Felsefesi (Epistemoloji) / Metafizik:</strong> Bilginin kaynağını sorgular.</li>
+                            <li><strong>Aksiyoloji (Değerler Felsefesi):</strong> Normatif değerleri inceler. Kendi içinde 3'e ayrılır:
+                                <ul>
+                                    <li><em>Etik (Ahlakın Felsefesi):</em> Davranış kuralları.</li>
+                                    <li><em>Siyasetin Felsefesi:</em> Toplumsal ve devletsel sistemler.</li>
+                                    <li><em>Estetik:</em> Güzelliğin felsefi incelemesi.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Mantık:</strong> Düşünceler arasındaki yasa ve ilkeleri inceler. <strong>"Tartışmanın felsefi incelemesini yapan bilim"</strong> olarak tanımlanmıştır. "Tartışma nedir?", "Nasıl çalışır?", "Tartışmayı kötü yapan nedir?" sorularına yanıt arar.</li>
+                        </ol>
+                        <h3>Epistemolojik İki Kamp (Rasyonalistler vs. Empiristler)</h3>
+                        <ul>
+                            <li><strong>Rasyonalistler:</strong> Bilginin kaynağını akıl ve mantıksal düşünmeye dayandırır. Metafizik konuları kabul ederler.</li>
+                            <li><strong>Empiristler (Deneyciler):</strong> Bilginin kaynağını duyu organları, deney ve gözleme dayandırır.</li>
+                            <li><strong>Pozitivizm:</strong> Gözlem ve deneyi temel alır. Metafiziği reddeder, çünkü metafizik kavramlar gözlemlenemezdir.</li>
+                            <li><strong>Konvansiyonalizm (Uzlaşımcılık):</strong> Nesnel gözlemin tarafsız olmadığını savunarak merkeze nesnel dünyayı değil, bilim insanının teorik uzlaşılarını koyar. ("Merkeze insanı koyarsak evrensellik nerede kalır?" sorusuyla eleştirilir).</li>
+                            <li><strong>Realizm (Gerçekçilik):</strong> Görünenin arkasındaki gizli yapılara bakarız.</li>
+                        </ul>
+                    </div>
+
+                    <div id="study-3" class="study-section">
+                        <h2>3. Arthur Schopenhauer ve İsteme Felsefesi</h2>
+                        <p>19. yüzyılın sonunu derinden etkileyen Arthur Schopenhauer'ın temel eseridir: <strong>İsteme ve Tasarım Olarak Dünya</strong>.</p>
+                        <div class="callout">
+                            <h4>İstemenin Esareti</h4>
+                            <p>Schopenhauer'a göre insan, kendi bitmek bilmeyen "isteme"lerinin esiri ve kölesidir. Bilinçaltımız aslında bu istemelerden ibarettir ve sürekli hazza yöneliktir.</p>
+                        </div>
+                        <h3>Sonsuz İsteme Döngüsü</h3>
+                        <p>İnsanın istemesi asla bitmez. Birey bir arzusuna kavuştuğunda, çok kısa bir süre sonra yeni bir isteme durumu baş gösterir. Bu durum insanı sürekli bir acı ve doyumsuzluk çemberine hapseder.</p>
+                        <h3>Hocanın Önerdiği Çözüm Yolu</h3>
+                        <p>Notlarda belirtildiği üzere, bu çileli döngüden kurtulmanın yolu: <strong>"İstemelere karşılık vermemek, istekleri mümkün olduğunca azaltmak ve baskılamaktır"</strong>.</p>
+                    </div>
+
+                    <div id="study-4" class="study-section">
+                        <h2>4. Hipotez Kriterleri</h2>
+                        <p><strong>Hipotez:</strong> Araştırmanın başında, olaylar veya değişkenler arasında tahmin edilen geçici ilişkidir. **Denenmek ve sınanmak üzere yazılır**. Denenmeyen önermeler hipotez değil, sadece bir **varsayım (kabul)** olur.</p>
+                        <h3>İyi Bir Hipotezin 6 Temel Özelliği</h3>
+                        <ol>
+                            <li><strong>Kuramsal Temel:</strong> Rastgele bir fikir olamaz; kuramsal bir temele bağlı olmalıdır.</li>
+                            <li><strong>Tüm Değişkenlerin Görünmesi:</strong> Bağımlı, bağımsız ve varsa ara değişkenlerin tamamı hipotezde net bir şekilde görünmelidir.</li>
+                            <li><strong>Zıtlık Yasağı:</strong> Bilimsel olarak doğruluğu iyice kanıtlanmış bilimsel gerçeklerle zıt şeyler yazılamaz.</li>
+                            <li><strong>İlişki Tanımı:</strong> Değişkenler arası ilişkiyi ve yönünü tanımlamalıdır.</li>
+                            <li><strong>Sınanabilirlik/Ölçülebilirlik:</strong> Açık, basit ve işlevsel şekilde ifade edilerek ölçülebilir olmalıdır.</li>
+                            <li><strong>Sınırlılık:</strong> Mevcut zaman ve olanaklarla sınanabilecek sınırlılıkta olmalıdır.</li>
+                        </ol>
+                        <div class="callout info">
+                            <h4>Doğru Hipotez Yoktur</h4>
+                            <p>Araştırma yöntemlerinde "doğru hipotez" diye bir kavram yoktur. Hipotez ya doğrulanır ya yanlışlanır. Yanlışlansa bile araştırmacı bunu nesnel olarak kabul etmek zorundadır. Bu durum araştırmacının yansızlığını (objektifliğini) artırır.</p>
+                        </div>
+                    </div>
+
+                    <div id="study-5" class="study-section">
+                        <h2>5. Değişkenler ve Korelasyon</h2>
+                        <p><strong>Değişken:</strong> İncelenecek kavrama ya da özelliğe denir. Değişen olgunun kendisi değil, sahip olduğu değişebilen değerlerdir.</p>
+                        <h3>Değişken Türleri</h3>
+                        <ul>
+                            <li><strong>Bağımsız Değişken (Etken/Neden):</strong> Bağımlı bir değişken üzerine etki veya sonuçlar üreten sebep değişkendir.</li>
+                            <li><strong>Bağımlı Değişken (Edilgen/Sonuç):** Bağımsız değişkenden etkilenen sonuçtur.</li>
+                            <li><strong>Ara / Aracı Değişken (Mediating/Intervening):** Bağımsız değişken açısından bakılınca bağımlı, bağımlı değişken açısından bakılınca bağımsız gibi görünen, sürece aracılık eden değişkendir.</li>
+                        </ul>
+                        <div class="callout">
+                            <h4>Hayati Uyarı</h4>
+                            <p>Bağımlı ve bağımsız değişkeni araştırmanın başında doğru tespit edemezseniz, araştırma tamamen çöker.</p>
+                        </div>
+                        <h3>Korelasyon (İlişki) ve Nedensellik Farkı</h3>
+                        <p>İki değişkenin birlikte hareket etmesine korelasyon denir. Nedensellik ise sebep-sonuç ilişkisidir. "Belirleyici" ifadesi varsa bağımlı/bağımsız değişken nedenselliği vardır.</p>
+                        <ul>
+                            <li><strong>Pozitif Korelasyon (Doğru Orantı):</strong> Değişkenler aynı yönde değişir.
+                                <br><em>Örnek:</em> İnternet kullanımı arttıkça depresyon düzeyinin de artması.
+                            </li>
+                            <li><strong>Negatif Korelasyon (Ters Orantı):</strong> Biri artarken diğeri azalır.
+                                <br><em>Örnek:</em> İnternet kullanımı arttıkça yaşam doyumunun azalması.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="study-6" class="study-section">
+                        <h2>6. Nirengi (Triangulation)</h2>
+                        <p><strong>Nirengi:</strong> Herhangi bir sosyal araştırma konusuna, ölçüm veya kuram meselesine birden fazla bakış açısıyla bakmaktır. Araştırmanın güvenilirliğini artırmak ve tek bir yöntemin sınırlılıklarını aşmak için kullanılır.</p>
+                        <h3>Nirenginin 4 Türü</h3>
+                        <ol>
+                            <li><strong>Ölçüm / Veri Nirengisi (Data Triangulation):</strong> Nicel araştırmalarda farklı kaynaklardan veri toplamak.
+                                <br><em>Örnek (Kurtlar Vadisi Şiddet Ölçümü):</em> Şiddet oranını tek başına sahne sayısıyla ölçemezsiniz. Şiddet sahnelerinin süresini (yarım saat, 45 dk, 1 saat) ölçmek, şiddeti 1-5 arası (az, orta, çok) oranlamak ve anket/uzman değerlendirmelerini birleştirmek gerekir.
+                            </li>
+                            <li><strong>Gözlemci Nirengisi (Investigator Triangulation):</strong> Nitel araştırmalarda öznelliği azaltmak için birden fazla bağımsız gözlemci kullanmak.</li>
+                            <li><strong>Kuram Nirengisi (Theory Triangulation):</strong> Verileri yorumlarken ve analiz ederken birden fazla teorik perspektif kullanmak (Çok boyutlu analiz).</li>
+                            <li><strong>Yöntem Nirengisi (Methodological Triangulation):</strong> Nicel ve nitel yöntemlerin bir arada kullanılması (Çalışmaya derinlik kazandırır).</li>
+                        </ol>
+                    </div>
+
+                    <div id="study-7" class="study-section">
+                        <h2>7. Örgütsel İletişim ve Dr. Birol Gülnar Modeli</h2>
+                        <p><strong>Örgütsel İletişim (Goldhaber, 1990):</strong> Çevresel belirsizliğin üstesinden gelmek için birbirine bağlı ilişkiler ağı içerisinde mesajların oluşturulması ve değiştirilmesi sürecidir. 7 anahtar kavramı: süreç, mesaj, ağ, karşılıklı bağlılık, ilişki, çevre ve belirsizliktir.</p>
+                        <p>Gelişimi; endüstriyel psikoloji, sosyal psikoloji, örgütsel davranış ve yönetim bilimlerine paraleldir. 3 sözlü gelenekten doğmuştur: topluluğa hitap etme, ikna ve bireylerarası sosyal bilim araştırmaları (Putnam, 1982).</p>
+                        <h3>Dr. Birol Gülnar'ın Örgütsel İletişim Modeli (Şekil 1)</h3>
+                        <p>Bu model örgütsel iletişimin dış dünya ve kurum içindeki yapısını gösterir:</p>
+                        <ul>
+                            <li><strong>Çevre (En Dış Daire):</strong> Örgütün etkileşimde bulunduğu dış çevre.</li>
+                            <li><strong>Kurum / Kültür (İç Dikdörtgen):</strong> Örgütün iç kültürel sınırları.</li>
+                            <li><strong>İletişim Alanı (Ortadaki Oval):</strong> İletişim sürecidir. İnsanlar ve Mesajlar yer alır. İnsanlardan mesajlara "Gönderim", mesajlardan insanlara "Geribildirim" yatay oklarıyla etkileşim sağlanır.</li>
+                            <li><strong>Dikey Etkileşim:</strong> Çevre ile kurum/kültür, kurum/kültür ile de iletişim alanı arasında dikey olarak çift yönlü oklarla ($\updownarrow$) sürekli etkileşim vardır.</li>
+                        </ul>
+                    </div>
+
+                    <div id="study-8" class="study-section">
+                        <h2>8. Richmond ve İletişim İşlevleri</h2>
+                        <p>Örgütsel bağlamda iletişim 6 temel işlevi yerine getirir (Richmond vd., 2005):</p>
+                        <ol>
+                            <li><strong>Bilgi Verme:</strong> İşlerin yürütülmesi için gerekli bilginin aktarılması.</li>
+                            <li><strong>Düzenleme:</strong> Kural ve politikaların belirlenmesi.</li>
+                            <li><strong>Bütünleş(tir)me:</strong> Çalışanların örgütsel aidiyetini güçlendirme.</li>
+                            <li><strong>Yönetim:</strong> Planlama, organizasyon ve kontrol.</li>
+                            <li><strong>İkna Etme:</strong> Ortak amaçlar doğrultusunda tutum oluşturma.</li>
+                            <li><strong>Sosyalleştirme:</strong> Kurum kültürüne uyum sağlama.</li>
+                        </ol>
+                        <h3>İletişim Türleri, Kanalları ve Engelleri</h3>
+                        <ul>
+                            <li><strong>Dikey İletişim:</strong> Yukarıdan-Aşağıya (talimat) ve Aşağıdan-Yukarıya (şikayet, öneri).</li>
+                            <li><strong>Yatay İletişim:</strong> Aynı düzeydeki çalışanlar arası koordinasyon.</li>
+                            <li><strong>Çapraz İletişim:</strong> Farklı kademe ve farklı departmanlar arası işlevsel bağ.</li>
+                            <li><strong>İletişim Engelleri:</strong> Gürültü, jargon farklılığı, değer yargıları, psikolojik engeller, statü farkı.</li>
+                            <li><strong>Geri Bildirim (Feedback):</strong> Mesajın doğru anlaşılıp anlaşılmadığını kontrol eder.</li>
+                            <li><strong>Resmi ve Gayri Resmi:</strong> Resmi (yazılı e-posta, rapor) ve Gayri Resmi (dedikodu/grapevine).</li>
+                        </ul>
+                        <div class="callout info">
+                            <h4>Kitabın Temel Hipotezi</h4>
+                            <p><strong>İletişim doyumu ile iş doyumu arasında pozitif bir ilişki vardır.</strong> Etkili iletişim belirsizliği azaltır; geri bildirim ise çalışana değerli hissettirerek iş tatminini artırır.</p>
+                        </div>
+                    </div>
+
+                    <div id="study-9" class="study-section">
+                        <h2>9. Orijinal Ders Anekdotları</h2>
+                        <p>Sınavda hoca tarafından sorulabilecek veya puan artıracak, ders notlarındaki kişisel anılar:</p>
+                        <ul>
+                            <li><strong>Hocanın Mezuniyeti:</strong> Hoca, Anadolu Üniversitesi İletişim Fakültesi mezunudur. Derste <strong>"En iyi tez bitirme tezidir"</strong> diyerek işleri zamanında bitirmenin önemini vurgulamıştır.</li>
+                            <li><strong>Karakter Yapısı:</strong> Hoca kendisi için <strong>"Ben idealist görünürüm ama pragmatistim"</strong> demiştir.</li>
+                            <li><strong>Cinsiyet Sorusu ve Darp Hadisesi:</strong> Araştırmada değişkenlerin işlevsel tanımlanması konusunu anlatırken; bir öğrencisinin yolda gördüğü yaşlı bir adama doğrudan "Cinsiyetiniz nedir?" diye sorması üzerine darp edildiğini anlatmıştır.</li>
+                            <li><strong>Askerlik ve İntiharı Engelleyen Ara Değişken:</strong> Hoca askere 33 yaşında gitmiştir. Orduda doktor bir askerin dışlandığını ve orduda sinemacı olduğunu belirtmiştir. En büyük korkusunun "Çocuğunun istemediği nahoş bir hayat sürmesi" olduğunu belirtmiştir. Bir çocuğu olan insanın hayattan kopamayacağını, bu korkunun insanı hayata bağlayan bir <strong>ara değişken</strong> olduğunu anlatmıştır.</li>
+                        </ul>
+                    </div>
+
+                    <div id="study-10" class="study-section">
+                        <h2>10. Ekonomik İpuçları ve Güncel Veriler</h2>
+                        <p>Hocanın ders notlarında nesnel verilerin gücünü göstermek için değindiği güncel ekonomik analizler:</p>
+                        <ul>
+                            <li><strong>Gelir ve Mevduat Dağılımı:</strong> Türkiye'deki banka hesaplarını örnek göstererek; **nüfusun %89'unun banka hesabında 10.000 TL bile bulunmadığını**, banka mevduatlarının **%78'inin ise sadece %1'lik bir kesimin elinde olduğunu** belirtmiştir.</li>
+                            <li><strong>Enflasyon ve Faiz Karşılaştırmaları:</strong> Türkiye'nin dünyada açlık sınırında 17. sırada olduğunu belirtmiştir. Zimbabwe'de bile enflasyonun Türkiye'den düşük olduğunu, dünyada Türkiye'den yüksek faiz veren çok az ülke olduğunu ve bunların **Arjantin ile Venezuela** olduğunu kaydetmiştir.</li>
+                            <li><strong>BYD ve İthalat Politikaları:</strong> Çinli otomobil üreticisi BYD firmasının Çin'de %30 indirim yaparken Türkiye'de %30 ek vergiyle satıldığını (tüketicilerin kazık yediğini), ısı pompası olmayan araçların varmış gibi satıldığını belirtmiştir. İthalat ve gümrükteki denetim süreçleri kapsamında uygulanan **TAREX** (Dış Ticarette Risk Esaslı Kontrol Sistemi) sistemine atıfta bulunarak, ölçme ve kontrol bilmeyen yöneticilerin hata yapacağını savunmuştur.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE SOLVER TAB (İnteraktif Sınav) -->
+        <section id="tab-quiz" class="tab-content">
+            <div class="quiz-container">
+                <div class="quiz-card">
+                    <div class="quiz-header">
+                        <span class="q-number" id="quiz-question-number">Soru 1 / 20</span>
+                        <span class="q-meta" id="quiz-question-ref">Referans: Not Sayfası 1</span>
+                    </div>
+                    <div class="q-text" id="quiz-question-text">
+                        Yükleniyor...
+                    </div>
+                    
+                    <textarea class="answer-area" id="quiz-answer-input" placeholder="Lütfen klasik sınav cevabınızı buraya yazınız... (Kendinizi test ediniz)"></textarea>
+                    <div class="char-counter" id="char-counter">0 karakter</div>
+
+                    <div class="quiz-actions">
+                        <button class="btn btn-secondary" id="quiz-prev-btn">Geri</button>
+                        <div>
+                            <button class="btn btn-secondary" style="display: inline-flex;" id="quiz-show-ans-btn">Cevabı Göster</button>
+                            <button class="btn btn-success" style="display: inline-flex;" id="quiz-save-btn">Cevabı Kaydet / Sonraki</button>
+                        </div>
+                    </div>
+
+                    <!-- Collapsible Model Answer -->
+                    <div class="model-answer-card" id="quiz-model-answer-card">
+                        <h4>Sınav Model Cevabı (Tam Puanlık):</h4>
+                        <p id="quiz-model-answer-text"></p>
+                        <span class="ref-pointer" id="quiz-model-ref-text"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ANSWER KEY TAB (Cevap Anahtarı) -->
+        <section id="tab-answers" class="tab-content">
+            <div class="answers-grid" id="answers-list-container">
+                <!-- Answer key cards will be dynamically injected -->
+            </div>
+        </section>
+
+        <!-- RAW NOTES BROWSER TAB -->
+        <section id="tab-notes" class="tab-content">
+            <div class="notes-layout">
+                <div class="notes-search-container">
+                    <input type="text" class="search-input" id="notes-search-input" placeholder="Notlarda ara (ör: nirengi, hipotez)...">
+                    <div class="notes-list" id="notes-list-container">
+                        <!-- Note links injected dynamically -->
+                    </div>
+                </div>
+                <div class="note-viewer">
+                    <h2 id="note-viewer-title">Not İçeriği</h2>
+                    <div class="note-viewer-content" id="note-viewer-content">
+                        Lütfen soldaki listeden okumak istediğiniz orijinal el yazısı not sayfasının transkripsiyonunu seçiniz.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

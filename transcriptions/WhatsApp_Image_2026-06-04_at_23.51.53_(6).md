@@ -1,0 +1,1 @@
+İletişim kurumlarda pek çok işlevleri yerine getirir. Örgütsel bağlamda iletişim altı işlevi yerine getirir. Bu işlevler; bilgi verme, düzenleme, bütünleş(tir)me, yönetim, ikna etme ve sosyalleştirmedir (Richmond vd., 2005: 25):
